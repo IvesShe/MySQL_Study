@@ -78,3 +78,19 @@ docker run -d -p 3306:3306 -v /home/mysql/conf:/etc/mysql/conf.d -v /home/mysql/
 
 看到此畫面，代表連接成功
   ![image](./images/20200805211137.png)
+
+
+# Linux上卸載MYSQL
+因為上一次安裝好，覺得有問題，這邊先卸載完，再重新安裝一次試試
+
+[卸載參考網址](https://blog.csdn.net/HaHa_Sir/article/details/80552819)
+
+[安裝參考網址](https://ithelp.ithome.com.tw/articles/10214666)
+
+這次就不再製作過程了，之前run過一次，但這次換另一份文檔製作看看，是否會有問題
+
+重新安裝好了，密碼的部分還是會報錯，傻眼了，所以上一次安裝可能是正確的，可能卡在mysql的root@localhot權限
+
+![image](./images/20200814151446.png)
+
+**結論： 阿里雲上安裝MySQL可能不讓人遠端連線吧? 暫時先跳過這邊了，先使用本地端練習吧**
