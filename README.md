@@ -94,3 +94,17 @@ docker run -d -p 3306:3306 -v /home/mysql/conf:/etc/mysql/conf.d -v /home/mysql/
 ![image](./images/20200814151446.png)
 
 **結論： 阿里雲上安裝MySQL可能不讓人遠端連線吧? 暫時先跳過這邊了，先使用本地端練習吧**
+
+# 使用虛擬機再戰一次
+
+## 使用VMware pro 15安裝CentOS7
+
+- 這邊有參考linux跟docker的筆記，筆記真的很重要，一些久久才作一次的事情，不記一下之後只能再重新google了
+- CentOS7 裝好跟XShell設定好連線
+- 安裝docker，在docker使用mysql 5.7的鏡像，不得不說docker真的很方便，不然自己裝mysql也要一點時間
+
+連接成功了
+
+![image](./images/20200819100932.png)
+
+![image](./images/20200819100925.png)
